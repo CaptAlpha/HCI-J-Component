@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</style>
+<link rel="stylesheet" href="../static/style.css" />
+<link href="http://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300&family=Poppins&display=swap"
+  rel="stylesheet" />
+<link rel="icon" href="static\Blinkerz.png" type="image/x-icon">
+</head>
+
+<body>
+    <style>
+
+
+        .heart-rate-plot {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+<!-- Navbar -->
+<div class="navbarContainer">
+  <div class="home">
+    <button id="button_1" class="btn" onclick="home()">Home</button>
+  </div>
+  <div class="buttons">
+    <div class="option">
+      <button id="button_2" class="btn" onclick="diabetes()">
+        Diabetes Monitor
+      </button>
+    </div>
+    <div class="option">
+      <button id="button_3" class="btn" onclick="heart()">
+        Heart Monitor
+      </button>
+    </div>
+    <div class="option">
+      <button id="button_4" class="btn" onclick="speech()">
+        Speech Recognition
+      </button>
+    </div>
+    <div class="option">
+      <button id="button_5" class="btn" onclick="contact()">
+        Emergency Contact
+      </button>
+    </div>
+    <div class="option">
+      <button id="button_6" class="btn" onclick="Chat()">
+        Chat
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Plot Content -->
+<img src="../heart_rate_plot.png" alt="Heart Rate Data Plot" >
+
+
+
+</body>
+</html>
